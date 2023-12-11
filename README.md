@@ -16,4 +16,4 @@ unzip eqtl_results.csv.zip
 unzip 1000G.EUR.22.vcf.zip
 ```
 
-Following the retrieval of the data, open the jupyter notebook and run the cells in chronological order. Explanations for what each cell does are provided in the comments within the code.
+Following the retrieval of the data, open the jupyter notebook and run the cells in order. Explanations for what each cell does are provided in the comments within the code.
