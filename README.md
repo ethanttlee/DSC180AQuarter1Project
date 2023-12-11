@@ -16,4 +16,6 @@ unzip eqtl_results.csv.zip
 unzip 1000G.EUR.22.vcf.zip
 ```
 
+Notebook dependencies include `numpy`, `statsmodels`, `matplotlib`, `seaborn`, `pandas`, and `PyPlink`. If required, install the dependencies using `pip install <packagename>` commands.
+
 Following the retrieval of the data, open the jupyter notebook and run the cells in order. Explanations for what each cell does are provided in the comments within the code.
