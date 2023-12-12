@@ -1,6 +1,8 @@
 # DSC180AQuarter1Project
 
-Run the following wget commands for all of the data, then unzip the data. These are necessary to run the notebook.
+The notebook "DSC180AQ1Project.ipynb" contains code to prepare gene expression for analysis, perform cis-eQTL, create LocusZoom plots, and a pipeline for PRS generation.
+
+Run the following wget commands, then unzip the data. These are necessary to run the notebook.
 
 ```
 wget -O GD462.GeneQuantRPKM.50FN.samplename.resk10.txt.zip https://drive.google.com/file/d/1ugiWccCtoF7Ccx5-8Fn4nfvL1NJ-PuSr/view
@@ -15,6 +17,8 @@ unzip eqtl_results.csv.zip
 
 unzip 1000G.EUR.22.vcf.zip
 ```
+
+Command line calls within the notebook use `Plink2.0`, a free, open-source whole-genome association analysis toolset. Download the executable at this link: https://www.cog-genomics.org/plink/2.0/ and place the file in the working directory. In the notebook, to run the Plink2.0 calls, replace the "<PATH TO PLINK EXEC>" tags with the path to the Plink executable on your device.
 
 Notebook dependencies include `numpy`, `statsmodels`, `matplotlib`, `seaborn`, `pandas`, and `PyPlink`. If required, install the dependencies using `pip install <packagename>` commands.
 
